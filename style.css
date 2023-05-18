@@ -20,18 +20,13 @@ li {
 /* Google Font */
 
 /* Navbar styling */
-.container-nav {
-  max-width: 1280px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: auto;
-}
+
 nav {
   height: 100px;
-  padding: 16px 100px;
   display: flex;
+
   align-items: center;
+  padding: 16px 100px;
   justify-content: space-between;
 }
 .nav-buttonregister {
@@ -309,3 +304,91 @@ input::placeholder {
   gap: 20px;
 }
 /* Footer Styling */
+
+/* Responsive Breakpoint Min Width 768px */
+@media only screen and (max-width: 768px) {
+  nav {
+    height: 100px;
+    padding: 16px 16px;
+    display: flex;
+    gap: px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hero-sections__container {
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    gap: 114px;
+    padding: 60px 20px;
+  }
+  .hero-sections__content {
+    text-align: center;
+  }
+  .hero-sections__content h1 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #2d2d2d;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .hero-sections__content p {
+    text-align: center;
+  }
+  .client-sections {
+    padding: 60px 20px;
+    flex-wrap: wrap;
+    gap: 35px 25px;
+  }
+  .client-sections img {
+    height: 22px;
+  }
+  .features-sections {
+    flex-direction: column;
+    padding: 60px 20px;
+  }
+  .testimonial-sections__container {
+    flex-direction: column;
+    padding: 60px 47px;
+  }
+  .prefooter__container {
+    flex-direction: column;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  .prefooter__content h1 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #2d2d2d;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  footer {
+    flex-wrap: wrap;
+    padding: 60px 20px;
+  }
+  .footer-right {
+    flex-direction: column;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-menu__list li a {
+    display: none;
+  }
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .footer-right {
+    gap: 4px;
+  }
+}
+/* Responsive Breakpoint */
