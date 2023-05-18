@@ -4,6 +4,6 @@ This simple project is my first step in starting to learn programming, especiall
 
 Apart from being here, I also share my stories in learning programming on my Twitter, you can visit the thread [here.](https://twitter.com/fasfashan/status/1658783377271717889?s=20)
 
-## Hal yang saya pelajari di projek ini
+## What I learned on this project
 
-HTML dan CSS. Ya, hanya dua itu yang ingin saya pelajari di projek ini. Seperti yang sebelumnya saya katakan, saya kerap kali melewati hal-hal dasar yang sebaiknya dimengerti lebih dalam. Khusus untuk CSS, saya tidak akan menggunakan framework atau bantuan apa pun demi memperkuat fundamental saya di CSS
+HTML and CSS. Yes, those are the only two that I want to learn in this project. As I said before, I often go through basic things that should be understood more deeply. Especially for CSS, I will not use any framework or assistance to strengthen my fundamentals in CSS.
